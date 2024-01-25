@@ -1,0 +1,53 @@
+.account-bg {
+  width: 100%;
+  background-color: #333333;
+}
+.member-ship-bg {
+  background-color: #ffffff;
+  padding: 15px 100px;
+  height: 90vh;
+}
+@media screen and (max-width: 599px) {
+  .member-ship-bg {
+    padding: 15px 20px;
+    height: 100vh;
+  }
+}
+.user-creds {
+  display: flex;
+}
+.creds {
+  margin-left: 15px;
+}
+.ultra-hd {
+  border: 2px solid #333333;
+  padding: 2px;
+  font-weight: 500;
+}
+.info-text-color {
+  color: #94a3b8;
+  font-weight: 600;
+}
+.info-details-color {
+  color: #1e293b;
+  font-weight: 400;
+}
+.logout-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 35px 0;
+}
+@media screen and (max-width: 599px) {
+  .logout-btn-container {
+    margin-top: 55px 0;
+  }
+}
+.logout-btn {
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

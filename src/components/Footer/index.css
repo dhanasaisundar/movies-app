@@ -1,0 +1,22 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icons-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+.social-media-icon {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: x-large;
+}
+
+.contact-us-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 8px 0;
+}
